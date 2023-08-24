@@ -13,7 +13,6 @@ The goal of this project is to implement a fully functional web design that look
 
 ## Screenshots
 
-![App Screenshot](https://ibb.co/ngLYQpb)
+![App Screenshot](https://i.ibb.co/xC7BzZD/01-headphones-desktop-2x.png)
 
-![App Screenshot](https://ibb.co/XWFXJpL)
-
+![App Screenshot](https://i.ibb.co/Y7XzJ3P/01-headphones-mobile-2x.png)
