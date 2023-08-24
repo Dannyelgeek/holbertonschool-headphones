@@ -1,0 +1,33 @@
+/* Resetting margins, paddings, and borders on all elements */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box; /* Recommended box-sizing for consistency */
+}
+
+/* Resetting list styles */
+ul, ol {
+    list-style: none;
+}
+
+/* Resetting typography-related styles */
+body, h1, h2, h3, p {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+/* Setting variables */
+
+:root {
+    --color-primary: ##FF6565;
+    --text-color-white: #ffffff;
+    --text-color-blue: #071629;
+}
+
+header .background {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background: url(/images/headphones_hero_1.jpg);
+}
