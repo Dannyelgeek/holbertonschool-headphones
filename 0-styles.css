@@ -68,6 +68,10 @@ p {
     margin-left: 201px;
 }
 
+.menu-btn {
+    display: none;
+}
+
 .navbar-menu {
     width: 255px;
     height: 15px;
@@ -93,6 +97,63 @@ p {
 
 .navbar-menu a:hover {
     color: var(--color-primary);
+}
+
+.header-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-46.2%, 12%);
+    font-family: 'Source Sans Pro';
+    color: var(--text-color-white);
+}
+
+.header-title .title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-container .title-1 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title-container .subtitle-1 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title-container .btn-primary {
+    width: 162px;
+    height: 44px;
+    border-radius: 22px;
+    background: var(--color-primary);
+    color: var(--text-color-white);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    box-shadow: 0 6px 15px var(--text-color-blue);
+    margin-top: 40px;
+    margin-bottom: 65px;
+}
+
+.title-container .btn-primary:hover {
+    background: #e05c5c;
+}
+
+.title-container .paragraph-1 {
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
 }
 
 @media (max-width: 480px) {
@@ -157,7 +218,7 @@ p {
         width: 0;
     }
 
-    .menu-icon:has(.menu-btn:checked) ~ .navbar-menu {
+    .menu-icon:has(.menu-btn:checked)~.navbar-menu {
         display: block;
         display: flex;
         flex-direction: column;
