@@ -142,6 +142,7 @@ p {
     box-shadow: 0 6px 15px var(--text-color-blue);
     margin-top: 40px;
     margin-bottom: 65px;
+    cursor: pointer;
 }
 
 .title-container .btn-primary:hover {
